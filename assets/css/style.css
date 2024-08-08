@@ -1,17 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
-body{
+body {
     display: flex;
     justify-content: center;
-    font-family:"Inter" , sans-serif;
+    font-family: "Inter", sans-serif;
 }
-
-
-.wrapper{
+.wrapper {
     max-width: 1024px;
     width: 100%;
     text-align: center;
 }
+
 h2 {
     font-size: 50px;
     margin-bottom: 10px;
@@ -30,11 +29,35 @@ input[type="search"] {
 .images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 300px);
+    grid-template-rows: 300px 300px;
     gap: 15px;
 }
+
 .images img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+.labels-wrap {
+    margin-bottom: 15px;
+}
+
+.label-btn {
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.label-btn:hover {
+    background-color: #eee;
+}
+
+
+
+
+
+
